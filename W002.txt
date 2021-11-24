@@ -1,0 +1,33 @@
+#include <iostream> 
+using namespace std;
+
+int main()
+{
+    setlocale(0, "");
+
+    int timeofyear;
+    cout << "Выберите нужное вам время года: \n[1] Зима \n[2] Весна \n[3] Лето \n[4] Осень \n";
+    cin >> timeofyear;
+    if (timeofyear == 1)
+    {
+        cout << "Зима";
+    }
+    else if (timeofyear == 2)
+    {
+        cout << "Весна")))";
+    }
+    else if (timeofyear == 3)
+    {
+        cout << "Лето";
+    }
+    else if(timeofyear == 4)
+    {
+        cout << "Осень";
+    }
+    else
+    {
+        cout << "Неверно указано время года. Пожалуйста,повторите попытку";
+    }
+
+    return 0;
+}
